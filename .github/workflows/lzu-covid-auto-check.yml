@@ -42,3 +42,5 @@ jobs:
           SENDKEY: ${{ secrets.SENDKEY }}
           TZ: Asia/Shanghai
         run: python lzu_auto_check.py
+- 名称：保活工作流程
+  用途：gautamkrishnar/keepalive-workflow@1.0.9
